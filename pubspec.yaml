@@ -22,11 +22,11 @@ environment:
   flutter: ">=3.3.0"
 
 dependencies:
-  archive: ^3.3.1
+  archive: ^4.0.7
   bezier: ^1.2.0
   collection: ^1.16.0
   cross_file: ^0.3.3+2
-  file_picker: ^5.0.2
+  file_picker: ^8.3.2
   flutter:
     sdk: flutter
   flutter_background: ^1.1.0
@@ -39,15 +39,15 @@ dependencies:
   move_to_background: ^1.0.2
   path: ^1.8.1
   path_provider: ^2.0.7
-  permission_handler: ^10.0.0
+  permission_handler: ^11.3.1
   queue: ^3.1.0+1
-  share_plus: ^6.0.1
+  share_plus: ^11.0.0
   stream_transform: ^2.0.0
   vector_math: ^2.1.2
   watcher: ^1.0.1
 
 dev_dependencies:
-  flutter_lints: ^2.0.1
+  flutter_lints: any
   flutter_test:
     sdk: flutter
 
