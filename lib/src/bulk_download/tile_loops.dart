@@ -75,7 +75,7 @@ List<Coords<num>> circleTiles(Map<String, dynamic> input) {
 
       outlineTileNums[zoomLvl]![tile.x.toInt()] ??= [
         1000000000000,
-        -1000000000000
+        -1000000000000,
       ];
 
       outlineTileNums[zoomLvl]![tile.x.toInt()] = [
