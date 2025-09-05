@@ -31,10 +31,10 @@ dependencies:
     sdk: flutter
   flutter_background: ^1.1.0
   flutter_local_notifications: ^12.0.2
-  flutter_map: ^3.0.0
+  flutter_map: 3.1.0
   http: ^0.13.5
   ini: ^2.1.0
-  latlong2: ^0.8.0
+  latlong2: ^0.9.1
   meta: ^1.7.0
   move_to_background: ^1.0.2
   path: ^1.8.1
@@ -51,4 +51,10 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-flutter: null
+# flutter: null
+
+dependency_overrides:
+  flutter_map:
+    git:
+      url: https://github.com/GlivePro-tech/flutter_map.git
+      ref: v310-fixes
